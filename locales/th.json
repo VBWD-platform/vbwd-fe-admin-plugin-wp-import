@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "นำเข้าจาก WordPress",
+    "feedUrl": "URL ฟีด RSS ของ WordPress",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "ขนาดชุด",
+    "checkFeed": "ตรวจสอบฟีด",
+    "import": "นำเข้า",
+    "importing": "กำลังนำเข้า…",
+    "neverImported": "ยังไม่เคยนำเข้า",
+    "alreadyImported": "นำเข้าแล้ว",
+    "totalInFeed": "ในฟีด",
+    "progressImported": "นำเข้าแล้ว…",
+    "summaryImported": "โพสต์ที่นำเข้าแล้ว",
+    "summaryErrors": "ข้อผิดพลาด",
+    "summaryImageMisses": "รูปภาพที่ดาวน์โหลดไม่สำเร็จ (คงค่า URL เดิมไว้)",
+    "importedPosts": "โพสต์ที่นำเข้าแล้ว",
+    "searchPlaceholder": "ค้นหาโพสต์ที่นำเข้าแล้ว…",
+    "perPage": "ต่อหน้า",
+    "columnTitle": "ชื่อเรื่อง",
+    "columnCategories": "หมวดหมู่",
+    "columnTags": "แท็ก",
+    "columnImportedAt": "นำเข้าเมื่อ",
+    "selectedCount": "ที่เลือก",
+    "removeSelected": "ลบที่เลือก",
+    "confirmRemove": "ลบโพสต์ที่นำเข้า {count} รายการอย่างถาวรหรือไม่? รายการฟีดเหล่านั้นจะสามารถนำเข้าได้อีกครั้ง",
+    "moveToDraft": "ย้ายไปฉบับร่าง",
+    "assignCategory": "กำหนดหมวดหมู่…",
+    "addTag": "เพิ่มแท็ก",
+    "tagNamePlaceholder": "ชื่อแท็ก",
+    "noPosts": "ยังไม่มีโพสต์ที่นำเข้า"
+  }
+}

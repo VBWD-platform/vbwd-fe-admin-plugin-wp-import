@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "Import WordPress",
+    "feedUrl": "URL du flux RSS WordPress",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "Taille du lot",
+    "checkFeed": "Vérifier le flux",
+    "import": "Importer",
+    "importing": "Import en cours…",
+    "neverImported": "jamais importés",
+    "alreadyImported": "déjà importés",
+    "totalInFeed": "dans le flux",
+    "progressImported": "importés…",
+    "summaryImported": "article(s) importé(s)",
+    "summaryErrors": "Erreurs",
+    "summaryImageMisses": "Images impossibles à télécharger (URL d'origine conservée)",
+    "importedPosts": "Articles importés",
+    "searchPlaceholder": "Rechercher des articles importés…",
+    "perPage": "Par page",
+    "columnTitle": "Titre",
+    "columnCategories": "Catégories",
+    "columnTags": "Étiquettes",
+    "columnImportedAt": "Importé le",
+    "selectedCount": "sélectionnés",
+    "removeSelected": "Supprimer la sélection",
+    "confirmRemove": "Supprimer complètement {count} article(s) importé(s) ? Leurs éléments de flux redeviendront importables.",
+    "moveToDraft": "Passer en brouillon",
+    "assignCategory": "Assigner à une catégorie…",
+    "addTag": "Ajouter une étiquette",
+    "tagNamePlaceholder": "Nom de l'étiquette",
+    "noPosts": "Aucun article importé pour le moment"
+  }
+}

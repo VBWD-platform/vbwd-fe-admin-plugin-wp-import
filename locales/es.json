@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "Importación de WordPress",
+    "feedUrl": "URL del feed RSS de WordPress",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "Tamaño del lote",
+    "checkFeed": "Comprobar feed",
+    "import": "Importar",
+    "importing": "Importando…",
+    "neverImported": "nunca importados",
+    "alreadyImported": "ya importados",
+    "totalInFeed": "en el feed",
+    "progressImported": "importados…",
+    "summaryImported": "entrada(s) importada(s)",
+    "summaryErrors": "Errores",
+    "summaryImageMisses": "Imágenes que no se pudieron descargar (se conserva la URL original)",
+    "importedPosts": "Entradas importadas",
+    "searchPlaceholder": "Buscar entradas importadas…",
+    "perPage": "Por página",
+    "columnTitle": "Título",
+    "columnCategories": "Categorías",
+    "columnTags": "Etiquetas",
+    "columnImportedAt": "Importado el",
+    "selectedCount": "seleccionados",
+    "removeSelected": "Eliminar selección",
+    "confirmRemove": "¿Eliminar por completo {count} entrada(s) importada(s)? Sus elementos del feed volverán a ser importables.",
+    "moveToDraft": "Mover a borrador",
+    "assignCategory": "Asignar a categoría…",
+    "addTag": "Añadir etiqueta",
+    "tagNamePlaceholder": "Nombre de la etiqueta",
+    "noPosts": "Aún no hay entradas importadas"
+  }
+}

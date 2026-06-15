@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "WordPress インポート",
+    "feedUrl": "WordPress RSS フィード URL",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "バッチサイズ",
+    "checkFeed": "フィードを確認",
+    "import": "インポート",
+    "importing": "インポート中…",
+    "neverImported": "未インポート",
+    "alreadyImported": "インポート済み",
+    "totalInFeed": "フィード内",
+    "progressImported": "件インポート済み…",
+    "summaryImported": "件の投稿をインポートしました",
+    "summaryErrors": "エラー",
+    "summaryImageMisses": "ダウンロードできなかった画像（元の URL を保持）",
+    "importedPosts": "インポート済みの投稿",
+    "searchPlaceholder": "インポート済みの投稿を検索…",
+    "perPage": "ページあたり",
+    "columnTitle": "タイトル",
+    "columnCategories": "カテゴリー",
+    "columnTags": "タグ",
+    "columnImportedAt": "インポート日時",
+    "selectedCount": "件選択中",
+    "removeSelected": "選択を削除",
+    "confirmRemove": "{count} 件のインポート済み投稿を完全に削除しますか？該当のフィード項目は再度インポート可能になります。",
+    "moveToDraft": "下書きに移動",
+    "assignCategory": "カテゴリーに割り当て…",
+    "addTag": "タグを追加",
+    "tagNamePlaceholder": "タグ名",
+    "noPosts": "インポート済みの投稿はまだありません"
+  }
+}

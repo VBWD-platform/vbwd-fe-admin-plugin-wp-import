@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "WordPress 导入",
+    "feedUrl": "WordPress RSS 订阅源 URL",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "批量大小",
+    "checkFeed": "检查订阅源",
+    "import": "导入",
+    "importing": "正在导入…",
+    "neverImported": "从未导入",
+    "alreadyImported": "已导入",
+    "totalInFeed": "订阅源中",
+    "progressImported": "已导入…",
+    "summaryImported": "篇文章已导入",
+    "summaryErrors": "错误",
+    "summaryImageMisses": "无法下载的图片（保留原始 URL）",
+    "importedPosts": "已导入的文章",
+    "searchPlaceholder": "搜索已导入的文章…",
+    "perPage": "每页",
+    "columnTitle": "标题",
+    "columnCategories": "分类",
+    "columnTags": "标签",
+    "columnImportedAt": "导入时间",
+    "selectedCount": "已选择",
+    "removeSelected": "删除所选",
+    "confirmRemove": "确定要彻底删除 {count} 篇已导入的文章吗？对应的订阅源条目将可以再次导入。",
+    "moveToDraft": "移至草稿",
+    "assignCategory": "分配到分类…",
+    "addTag": "添加标签",
+    "tagNamePlaceholder": "标签名称",
+    "noPosts": "暂无已导入的文章"
+  }
+}

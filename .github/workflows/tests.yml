@@ -1,0 +1,49 @@
+name: Tests
+
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout plugin
+        uses: actions/checkout@v4
+        with:
+          path: plugin-src
+      - name: Checkout vbwd-fe-admin
+        uses: actions/checkout@v4
+        with:
+          repository: VBWD-platform/vbwd-fe-admin
+          path: vbwd-fe-admin
+          submodules: recursive
+      - name: Overlay plugin source
+        run: cp -r plugin-src/. vbwd-fe-admin/plugins/wp-import/
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: vbwd-fe-admin/package-lock.json
+      - name: Build vbwd-fe-core submodule
+        run: |
+          cd vbwd-fe-admin/vbwd-fe-core
+          npm install
+          npm run build
+      - name: Install dependencies
+        run: |
+          cd vbwd-fe-admin
+          npm install
+      - name: Run plugin tests
+        run: |
+          cd vbwd-fe-admin
+          if find plugins/wp-import -name "*.spec.ts" -o -name "*.test.ts" | grep -q .; then
+            npx vitest run plugins/wp-import --reporter=verbose
+          else
+            echo "No tests found for wp-import — skipping."
+          fi

@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "Импорт из WordPress",
+    "feedUrl": "URL RSS-ленты WordPress",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "Размер партии",
+    "checkFeed": "Проверить ленту",
+    "import": "Импортировать",
+    "importing": "Импорт…",
+    "neverImported": "не импортировано",
+    "alreadyImported": "уже импортировано",
+    "totalInFeed": "в ленте",
+    "progressImported": "импортировано…",
+    "summaryImported": "запись(ей) импортировано",
+    "summaryErrors": "Ошибки",
+    "summaryImageMisses": "Изображения, которые не удалось скачать (сохранён исходный URL)",
+    "importedPosts": "Импортированные записи",
+    "searchPlaceholder": "Поиск по импортированным записям…",
+    "perPage": "На странице",
+    "columnTitle": "Заголовок",
+    "columnCategories": "Категории",
+    "columnTags": "Метки",
+    "columnImportedAt": "Дата импорта",
+    "selectedCount": "выбрано",
+    "removeSelected": "Удалить выбранные",
+    "confirmRemove": "Полностью удалить {count} импортированных записей? Их элементы ленты снова станут доступны для импорта.",
+    "moveToDraft": "В черновики",
+    "assignCategory": "Назначить категорию…",
+    "addTag": "Добавить метку",
+    "tagNamePlaceholder": "Название метки",
+    "noPosts": "Импортированных записей пока нет"
+  }
+}

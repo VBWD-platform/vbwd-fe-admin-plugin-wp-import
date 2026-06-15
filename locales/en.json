@@ -1,0 +1,33 @@
+{
+  "wpImport": {
+    "title": "WordPress Import",
+    "feedUrl": "WordPress RSS feed URL",
+    "feedUrlPlaceholder": "https://example.com/feed/?token=…",
+    "batchSize": "Batch size",
+    "checkFeed": "Check feed",
+    "import": "Import",
+    "importing": "Importing…",
+    "neverImported": "never imported",
+    "alreadyImported": "already imported",
+    "totalInFeed": "in feed",
+    "progressImported": "imported…",
+    "summaryImported": "post(s) imported",
+    "summaryErrors": "Errors",
+    "summaryImageMisses": "Images that could not be downloaded (original URL kept)",
+    "importedPosts": "Imported posts",
+    "searchPlaceholder": "Search imported posts…",
+    "perPage": "Per page",
+    "columnTitle": "Title",
+    "columnCategories": "Categories",
+    "columnTags": "Tags",
+    "columnImportedAt": "Imported at",
+    "selectedCount": "selected",
+    "removeSelected": "Remove selected",
+    "confirmRemove": "Completely remove {count} imported post(s)? Their feed items become importable again.",
+    "moveToDraft": "Move to draft",
+    "assignCategory": "Assign to category…",
+    "addTag": "Add tag",
+    "tagNamePlaceholder": "Tag name",
+    "noPosts": "No imported posts yet"
+  }
+}
