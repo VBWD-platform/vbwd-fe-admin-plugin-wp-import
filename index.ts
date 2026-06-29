@@ -48,7 +48,7 @@ function addTranslations(sdk: IPlatformSDK): void {
 
 export const wpImportAdminPlugin: IPlugin = {
   name: 'wp-import',
-  version: '26.6',
+  version: '26.6.1',
   description: 'Import WordPress posts from an RSS feed into the CMS.',
 
   install(sdk: IPlatformSDK) {
